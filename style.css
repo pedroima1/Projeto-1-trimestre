@@ -59,9 +59,10 @@ body {
 .botoes {
     display: block;
 }
-@media screen and (min-width: 768px) {
+@@media screen and (min-width: 768px) {
+  /* Código omitido */
 
-  .botao:last-child {
-    border-radius: 0 0 40px 0;
+  .botao:first-child {
+    border-radius: 40px 0 0 0;
   }
 }
